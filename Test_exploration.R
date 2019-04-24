@@ -37,7 +37,7 @@ table(claim_cat$FraudFound_P)
 
 
 
-# Encoding the target feature as factor only after one-hot encoding
+# Encoding the target feature as factor only after one-hot encoding in
 claim_cat$FraudFound_P <- as.factor(claim_cat$FraudFound_P)
 typeof(claim_cat$FraudFound_P)
 levels(claim_cat$FraudFound_P) <- c('0','1')
